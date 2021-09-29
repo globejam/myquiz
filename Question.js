@@ -24,10 +24,10 @@ class Question {
   }
 
   display(){
-    this.title.html("My Quick Quiz");
+    this.title.html("My Quiz");
     this.title.position(300, 15);
 
-    this.question.html("Question - In a field, there are 5 sheep, 2 dogs and 1 person. How many feet are there?" );
+    this.question.html("Question - In a field, there are 5 sheep, 2 dogs and 1 person. How many feet are there?(think out of the box)" );
 
     this.question.position(90, 80);
     this.option1.html("1) 32 " );
